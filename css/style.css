@@ -1,0 +1,126 @@
+.topNav{
+    background-color:#91caff70;
+    border-radius: 25px;
+}
+
+
+.page-header{
+    margin-top:2%;
+    font-size:70px;
+    text-align: center;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;    color:#C9AE5D;
+}
+body{
+    background-image: url("../img/19366.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.theTank{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../img/221_ug9ses1dagfpbi0xlvdoaxrl.jpg");
+    /* Set a specific height */
+    min-height: 900px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    overflow-y: scroll;
+    height: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 7px 3px #353536;
+    background-color: rgba(236, 236, 238, 0.515) !important;
+}
+
+.mycheck{
+    float: right;
+}
+
+.coinData{
+    margin-left:1rem;
+}
+
+#about {
+    text-align: center;
+    font-family: 'Goldman', cursive;
+    margin-top:2%;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+body.loading .modal {
+    overflow: hidden;   
+}
+body.loading .modal {
+    display: block;
+}
+
+
+.btnNav {
+width: 160px;
+height: 50px;
+cursor: pointer;
+background: transparent;
+border: 1px solid #91C9FF;
+outline: none;
+transition: 1s ease-in-out;
+}
+
+.btn:hover {
+transition: 1s ease-in-out;
+background: #4F95DA;
+}
+
+.btn:hover svg {
+stroke-dashoffset: -480;
+}
+
+.btn span {
+color: white;
+font-size: 18px;
+font-weight: 100;
+}
+
+.popWindow{
+    border-radius: 25px;
+    padding: 3rem;
+    font-style: bold, underline;
+    font-size: 22px;
+    display: inline-block;
+    width:500px; 
+    height:auto;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    justify-content: center;
+    background-color:#c9ae5dac;
+    overflow: hidden;   
+}
+#h3PopWindow{
+    width: 20%;
+}
