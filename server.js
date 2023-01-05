@@ -11,7 +11,10 @@ server.use(cors());
 server.use(express.json());
 
 //our Routes..
-server.use("/", controller);
+
+server.get('/', (req, res) => {
+  res.sendFile(__dirname + '/index.html');
+});
 
 //our middleware (handling error messages)
 //if we didn't find any route, the server will run this command.
